@@ -173,7 +173,7 @@ ul.brand li:before{
     height: 75px;
 }
 
-.om-tree-small-hidden{
+.om-tree-small .om-tree-small-hidden{
     display: none;
 }
 
