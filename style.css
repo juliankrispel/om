@@ -112,7 +112,7 @@ h3,h4,h5{ font-weight: bold; }
 
 body{ 
     font-family: Helvetica Neue, Helvetica, Arial, Verdana, serif;
-    color: #333;
+    color: #555;
     font-size: 20px;
     line-height: 1.5em;
 }
@@ -123,12 +123,11 @@ body{
     h2{ font-size: 1.35em; }
 }
 
-
 p{ 
     margin-bottom: 1em; 
 }
 
-.text-brand{ color: #D15515; }
+.text-brand{ color: #EA711E; }
 
 ul li{
     margin-bottom: 1em;
@@ -163,16 +162,25 @@ ul.brand li:before{
     height: 210px;
 }
 
-.om-monk{
+.om-tree{
     position: relative;
     height: 170px;
     display: block;
-    margin: 60px auto 30px auto;
+    margin: 40px auto 30px auto;
 }
+
+.om-tree-small{
+    height: 75px;
+}
+
+.om-tree-small-hidden{
+    display: none;
+}
+
 .om-type{
     margin: 30px auto 50px auto;
     display: block;
-    height: 45px;
+    height: 63px;
 }
 
 @media(max-width: 769px){
